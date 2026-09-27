@@ -1,4 +1,9 @@
 # Handoff
 
-Status: law firm UI template (Veld & Hart). Routes: / and /practice.
-Next: replace counsel names and practice areas. This is not legal advice copy for a real filing.
+Status: full multi-page Veld & Hart template. 14 routes. Pushed from the starter-template batch.
+
+Stack: Next.js 15, React 19, CSS in app/globals.css. Shared chrome in components/SiteChrome.tsx.
+
+Forms stay in the browser. No payments, auth, or database.
+
+Next: npm install && npm run dev. Edit copy per page under app/.
