@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f6f3ee; color: #0c1b33; font-family: var(--font-body), sans-serif; }
+a { color: inherit; }
+.frame { max-width: 880px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+.brand { text-align: center; border-bottom: 1px solid #9a7b4f; padding-bottom: 1rem; }
+.brand h1, .center h2 { font-family: var(--font-display), serif; font-weight: 400; }
+.brand h1 { font-size: clamp(2.4rem, 6vw, 4rem); margin: 0; }
+.brand p { letter-spacing: 0.22em; text-transform: uppercase; font-size: 0.72rem; }
+nav { display: flex; justify-content: center; gap: 1.5rem; padding: 0.8rem 0 2rem; }
+.areas { display: grid; grid-template-columns: 1fr 1fr; }
+.areas article { padding: 1.2rem 1rem; border-top: 1px solid #d9d0c2; }
+.areas h2 { font-family: var(--font-display), serif; font-weight: 400; font-size: 1.5rem; }
+.people { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+.person { background: white; padding: 1rem; }
+.center { text-align: center; }
+.inquiry-form { text-align: left; display: grid; gap: 0.7rem; max-width: 520px; margin: 0 auto; }
+label { display: grid; gap: 0.25rem; }
+input, textarea, select { font: inherit; padding: 0.7rem; border: 1px solid #d9d0c2; background: white; }
+button { font: inherit; background: #0c1b33; color: #f6f3ee; border: 0; padding: 0.8rem; cursor: pointer; }
+.form-success { background: white; padding: 1rem; }
+@media (max-width: 700px) { .areas, .people { grid-template-columns: 1fr; } }
